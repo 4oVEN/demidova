@@ -1,0 +1,65 @@
+.promo{
+  background: url('../img/nata.png') no-repeat 60% / cover;
+  height: 100vh;
+  background-color: #C7D1D2;
+  position: relative;
+  padding: 25px 0;
+  &__title{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #313131;
+    margin-bottom: 25px;
+  }
+  .divider{
+    height: 2px;
+    max-width: 550px;
+    background-color: #313131;
+    // margin-bottom: 25px;
+  }
+  &__inner{
+    display: flex;
+    max-width: 550px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .social{
+    &__link{
+      margin-right: 20px;
+      display: inline-block;
+    }
+  }
+  &__item{
+    position: absolute;
+    bottom: 50px;
+  }
+  &__subtitle{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px; 
+  }
+  &__text{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px; 
+  }
+  a{
+    margin-top: 20px;
+  }
+  a:hover{
+      color: #313131;
+  }
+  &__btn{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    border: 2px solid #313131;
+    padding: 15px 30px;
+    transition: all 0.7s;
+    // margin-top: 20px;
+    }
+   &__btn:hover{
+      background: #f2b438;
+  }
+}
