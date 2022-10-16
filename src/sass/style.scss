@@ -19,6 +19,12 @@ a{
 a:hover{
 	text-decoration: none;
 }
+li{
+    list-style-type: none;
+}
+ul{
+    margin-bottom: 0;
+}
 
 
 @import 'blocks/promo';
