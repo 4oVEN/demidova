@@ -1,6 +1,7 @@
 .services{
   background: #2E2E2E;
   padding: 100px 0;
+  position: relative;
   &__title{
     font-weight: 400;
     font-size: 35px;
@@ -25,6 +26,7 @@
     width: 610px;
     background: #EFEFEF;
     padding: 25px;
+    z-index: 2;
     &-inner{
       display: flex;
       align-items: center;
@@ -55,6 +57,24 @@
     padding-bottom: 15px;
     border-bottom: 2px solid rgba(35, 35, 37, 0.5);
     margin-top: 25px;
+  }
+  &__circle{
+    position: absolute;
+    top: 121px;
+    left: 30px;
+    z-index: 1;
+  }
+  &__floor-circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+  &__small-circle{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    z-index: 1;
   }
 
 }
