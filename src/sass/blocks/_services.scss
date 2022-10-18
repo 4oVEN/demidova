@@ -48,6 +48,7 @@
     height: 3px;
     background: #232325;
     cursor: pointer;
+    flex-shrink: 0;
   }
   &__item-list{
     font-size: 17px;
