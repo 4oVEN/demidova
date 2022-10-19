@@ -1,7 +1,69 @@
 .contacts{
   background: #232325;
+  padding: 50px 0;
   &__container{
     width: 1030px;
     margin: 0 auto;
   }
+  &__title{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    color: #EFEFEF;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__divider{
+    width: 250px;
+    height: 2px;
+    background: #EFEFEF;
+    margin: 0 auto 50px;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link{
+    display: block;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+    margin-bottom: 20px;
+    &:hover{
+      color: #EFEFEF;
+    }
+  }
+  &__form{
+    width: 408px;
+  }
+  &__input{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #EFEFEF;
+    background: transparent;
+    resize: none;
+    color: #EFEFEF;
+    &::placeholder{
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 20px;
+      color: #EFEFEF;
+      ::-webkit-input-placeholder,
+      ::-moz-placeholder,
+      :-moz-placeholder,
+      :-ms-input-placeholder {opacity: 1; color:#EFEFEF;}
+    }
+  }
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+     box-shadow: 0 0 0 30px #EFEFEF inset !important;
+     color: #EFEFEF !important;
+}
+
