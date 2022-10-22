@@ -58,12 +58,45 @@
       :-ms-input-placeholder {opacity: 1; color:#EFEFEF;}
     }
   }
+  &__policy{
+    display: flex;
+    margin-bottom: 50px;
+    input{
+      cursor: pointer;
+    }
+    span{
+      margin-left: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #EFEFEF; 
+      a{
+        color: #EFEFEF;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .btn{
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+    background: #232325;
+    border: 2px solid #EFEFEF;
+    transition: all 0.7s;
+    &:hover{
+      background: #EB9B00;
+    }
+  }
 }
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active  {
-     box-shadow: 0 0 0 30px #EFEFEF inset !important;
-     color: #EFEFEF !important;
-}
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active  {
+//      box-shadow: 0 0 0 30px #EFEFEF inset !important;
+//      color: #EFEFEF !important;
+// }
 
