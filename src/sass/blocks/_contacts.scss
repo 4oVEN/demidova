@@ -22,6 +22,7 @@
   &__wrapper{
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
   &__link{
     display: block;
@@ -33,6 +34,13 @@
     &:hover{
       color: #EFEFEF;
     }
+  }
+  &__social{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
   }
   &__form{
     width: 408px;
