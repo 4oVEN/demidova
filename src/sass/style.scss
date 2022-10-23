@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap');
 
 * {
-    // font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-		box-sizing: border-box;
+	box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 1280px;
@@ -29,3 +30,6 @@ ul{
 
 @import 'blocks/promo';
 @import 'blocks/services';
+@import 'blocks/about';
+@import 'blocks/contacts';
+@import 'blocks/policy';
