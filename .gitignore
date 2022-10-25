@@ -2,7 +2,11 @@
 
 # dependencies
 /node_modules
-/mailer
+
+
+smartt.php
+
+mailerr
 
 
 # testing
