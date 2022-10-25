@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     let formData = new FormData(form);
-    let response = await fetch('mailer/smart.php', {
+    let response = await fetch('mailerr/smartt.php', {
       method: 'POST',
       body: formData
     });
