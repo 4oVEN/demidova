@@ -1,0 +1,12 @@
+@media (max-width: 1260px) {
+  .services__wrapper{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px){
+  .services__circle {
+    top: 345px;
+    left: -44px;
+  }
+}
