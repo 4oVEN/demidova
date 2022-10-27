@@ -5,8 +5,19 @@
 }
 
 @media (max-width: 768px){
-  .services__circle {
-    top: 345px;
-    left: -44px;
+  .services {
+    padding: 50px 0;
+    &__circle{
+      top: 345px;
+      left: -44px;
+    }
+    &__subtitle{
+      font-size: 18px;
+      line-height: 25px;
+    }
+    &__item-list{
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
 }
