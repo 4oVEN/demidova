@@ -2,7 +2,8 @@
   background: #232325;
   padding: 50px 0;
   &__container{
-    width: 1030px;
+    max-width: 1070px;
+    padding: 0 20px;
     margin: 0 auto;
   }
   &__title{
@@ -100,11 +101,5 @@
     }
   }
 }
-// input:-webkit-autofill,
-// input:-webkit-autofill:hover,
-// input:-webkit-autofill:focus,
-// input:-webkit-autofill:active  {
-//      box-shadow: 0 0 0 30px #EFEFEF inset !important;
-//      color: #EFEFEF !important;
-// }
+
 
