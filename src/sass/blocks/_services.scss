@@ -16,7 +16,7 @@
     height: 2px;
     width: 250px;
     background-color: #fff;
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
   }
 
   &__wrapper {
@@ -59,7 +59,9 @@
   &__items {
     display: none;
   }
-
+  &__item.open{
+    min-height: 500px;
+  }
 
   &__item.open &__items {
     display: block;
@@ -75,11 +77,27 @@
   }
 
   &__item-press {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 25px;
-    height: 3px;
-    background: #232325;
+    height: 25px;
     cursor: pointer;
     flex-shrink: 0;
+  }
+  .line{
+    width: 100%;
+    height: 3px;
+    background: #232325;
+    transition: all 0.3s;
+  }
+  .line2{
+    transform: rotate(0deg);
+    translate: 0px -3px;
+  }
+  &__item.open .line2{
+    transform: rotate(90deg);
   }
 
   &__item-list {
