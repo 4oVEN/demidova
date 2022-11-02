@@ -3,24 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   accordions.forEach(el => {
     el.addEventListener('click', (e) => {
-      // const self = e.currentTarget;
-      // const control = self.querySelector('.services__subtitle');
-      // const content = self.querySelector('.services__items');
-
-      // self.classList.toggle('open');
-
-      console.log(el)
 
       el.parentNode.classList.toggle('open')
 
-      console.log(el.parentNode.classList.contains('open'))
+      // console.log(el.parentNode.classList.contains('open'))
 
-      // if (el.parentNode.classList.contains('open')) {
-      //   el.closest('.services__wrapper').classList.add('parent')
-
-      // } else {
-      //   el.closest('.services__wrapper').classList.remove('parent')
-      // }
     });
   });
 
