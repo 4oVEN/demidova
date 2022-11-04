@@ -66,7 +66,7 @@ gulp.task('img', function (){
 });
 
 gulp.task('mailer', function (){
-  return gulp.src('src/mailerr/**/*')
+  return gulp.src('src/mailerr/*')
   .pipe(gulp.dest('dist/mailerr'))
   .pipe(browserSync.stream());
 });
